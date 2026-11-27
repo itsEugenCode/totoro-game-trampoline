@@ -36,3 +36,17 @@ entities.json
 
 sysinfo.txt
 crashlytics-buildid.txt
+/unity/mono_crash*.blob
+
+# Игнорируем основной файл
+.env
+
+# Игнорируем локальные переопределения
+.env.local
+.env.*.local
+
+# Игнорируем все файлы, начинающиеся на .env., включая примеры
+.env.*
+
+# Игнорируем остальные файлы с расширением .env
+*.env
